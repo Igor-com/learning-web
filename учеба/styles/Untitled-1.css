@@ -1,0 +1,27 @@
+p {
+    font-family: 'Oswald', sans-serif;
+    color:red;
+}
+
+.text {
+    font-style: italic;
+    background-color: black;
+    font-size:160%;
+    font-weight:800;
+    text-indent:20px;
+    word-spacing:5px;
+}
+
+#table { /*Здесь мы применяем стиль к таблице*/
+    background-color: blueviolet;
+}
+
+#ssilka {
+   text-decoration:overline;
+}
+.twenty {
+    text-decoration:none;
+}
+
+
+
