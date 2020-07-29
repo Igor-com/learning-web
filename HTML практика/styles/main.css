@@ -1,0 +1,34 @@
+h1 {
+    font-weight: 800;
+    font-size: 250%;
+    text-align: center;
+    text-shadow:5px 2px 4px yellow; /*тень*/
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+p { 
+    font-family: 'Ubuntu', sans-serif;
+} 
+
+.red {
+    font-family: 'Playfair Display', serif;
+    text-decoration:none;
+    color:red;
+}
+
+h2 {
+    font-family: 'Noto Serif', serif;
+    word-spacing:2px;
+    letter-spacing: 3px;
+    font-size:200%;
+    text-decoration: underline;
+}
+
+#begin {
+    text-indent:20px;
+}
+
+#name {
+    font-style: italic;
+    font-weight: 900;
+}
