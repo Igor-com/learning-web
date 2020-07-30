@@ -1,0 +1,55 @@
+h1 {
+    font-weight: 900;
+    font-size: 400%;
+    text-align: center;
+    text-shadow:5px 2px 4px yellow;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color:orange;
+}
+
+h3 {
+    font-size: 30px;
+    color:blue;
+
+}
+
+table {
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    color:darkred;
+}
+
+#endd {
+    text-align: center;
+}
+
+.sotik {
+    background-color:#CC33CC;
+}
+
+.first {
+    background-color:#00FFCD ;
+}
+
+.second {
+    background-color:#009150; 
+}
+
+#italic {
+    font-style: italic;
+}
+
+span {
+    font-style: italic;
+    font-size:larger;
+}
+
