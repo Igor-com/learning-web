@@ -21,8 +21,21 @@ p {
 }
 
 .twenty {
+    border:5px solid red;/*обводка границы блока*/
     text-decoration:none;
+    padding:10px; /*это отступ от границы*/
+    border-width:2px;
+    background-color: blue;
+    color:white;
 }
+
+#ipsum {
+    border:10px solid blueviolet;
+    height:500px;
+    width:700px;
+}
+
+
 
 
 
