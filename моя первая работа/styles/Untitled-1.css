@@ -33,7 +33,41 @@ p {
     border:10px solid blueviolet;
     height:500px;
     width:700px;
+    cursor:text;
 }
+
+body {
+    background-color: lightblue;
+    background-image: url(1579643631_10-p-nezhnie-foni-dlya-grupp-v-kontakte-16.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+a:visited {
+    color:violet;
+}
+
+a:hover {
+    color:red;
+    font-weight:900;
+}
+a:active {
+    color:black;
+    text-decoration: overline;
+}
+
+input  {
+    cursor:pointer;
+}
+
+ul {
+    list-style-type: square;
+}
+
+table {
+    border-spacing: 20px 30px;
+}
+
 
 
 
