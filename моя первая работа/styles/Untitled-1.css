@@ -12,8 +12,9 @@ p {
     word-spacing:5px;
 }
 
-#table { /*Здесь мы применяем стиль к таблице*/
+table { /*Здесь мы применяем стиль к таблице*/
     background-color: blueviolet;
+    border-spacing: 20px 30px;
 }
 
 #ssilka {
@@ -34,6 +35,9 @@ p {
     height:500px;
     width:700px;
     cursor:text;
+    margin-left: 150px;
+    margin-top: 100px;
+    position: static;
 }
 
 body {
@@ -63,10 +67,12 @@ input  {
 ul {
     list-style-type: square;
 }
-
-table {
-    border-spacing: 20px 30px;
+li {
+    display: inline;
+    visibility: visible;
 }
+
+
 
 
 
