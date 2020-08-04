@@ -25,7 +25,8 @@ body {
     width:140px;
     margin-top:-260px;
     margin-left:345px;
-    background-color: #FF0000; 
+    background-color: #FF0000;
+    overflow: scroll; 
 }
 
 #blue {

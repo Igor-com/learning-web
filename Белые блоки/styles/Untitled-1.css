@@ -1,0 +1,32 @@
+body {
+    background-color: #4DCFE0;
+}
+
+.pramo {
+    float:left;
+    margin-top: 90px;
+    margin-left:3% ;
+    height:450px ;
+    background-color: #F8F8F8; 
+}
+
+
+#one {
+    width: 4%;
+    margin-left: 10%;
+}    
+
+#two {
+    width: 6%;
+}
+
+#three {
+    width: 8%;
+}
+
+#four {
+    width: 17%;
+}
+#five {
+    width: 32%;
+}
