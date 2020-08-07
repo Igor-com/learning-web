@@ -94,6 +94,31 @@ li {
     position: relative;
 }
 
+a:first-child {
+    font-size: 300px;
+}
+
+.text::first-line {
+    font-size: xx-large;
+    font-style:oblique;
+    color:white;
+    text-decoration: line-through;
+}
+
+.text::selection {
+    background-color: yellow;
+}
+
+small::selection  {
+    background-color: yellow;
+}
+
+big::selection  {
+    background-color: yellow;
+}
+
+
+
 
 
 
