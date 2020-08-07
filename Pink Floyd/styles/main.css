@@ -32,3 +32,14 @@ h2 {
     font-style: italic;
     font-weight: 900;
 }
+
+#new {
+    box-shadow: 30px 30px 30px 30px grey;
+    -moz-box-shadow:30px 30px 30px 30px grey;
+    -webkit-box-shadow:30px 30px 30px 30px grey;
+    opacity: 0.9;
+}
+
+#begin::first-line {
+    text-decoration: line-through;
+}

@@ -32,6 +32,9 @@ table { /*Здесь мы применяем стиль к таблице*/
     border-width:2px;
     background-color: blue;
     color:white;
+    border-radius: 20% 30% 10% 0%;
+    -webkit-border-radius:20% 30% 10% 0%;
+    -moz-border-radius:20% 30% 10% 0%;
 }
 
 #ipsum {
@@ -82,6 +85,10 @@ li {
     background-color: blue;
     z-index:3 ;
     position: relative;
+    border-radius: 50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    opacity: 0.6;
 }
 
 #second {
@@ -92,20 +99,26 @@ li {
     margin-left:50px;
     z-index: 2;
     position: relative;
+    border-radius: 50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: -10px -10px 5px 5px grey;
+   -moz-box-shadow:-10px -10px 5px 5px grey;
+   -webkit-box-shadow:-10px -10px 5px 5px grey;
 }
 
-a:first-child {
+a:first-child { /*стиль применяется к 1 дочернему элементу*/
     font-size: 300px;
 }
 
-.text::first-line {
+.text::first-line {/*первая линия*/
     font-size: xx-large;
     font-style:oblique;
     color:white;
-    text-decoration: line-through;
+    text-decoration: line-through;/*зачернутый текст*/
 }
 
-.text::selection {
+.text::selection {/*выделение текста*/
     background-color: yellow;
 }
 
