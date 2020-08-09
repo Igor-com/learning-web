@@ -11,7 +11,7 @@ p {
 } 
 
 .red {
-    font-family: 'Playfair Display', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration:none;
     color:red;
 }
@@ -28,6 +28,12 @@ h2 {
     text-indent:20px;
 }
 
+#begin::selection {
+    background-color:red;
+    color:white;
+}
+
+
 #name {
     font-style: italic;
     font-weight: 900;
@@ -42,4 +48,16 @@ h2 {
 
 #begin::first-line {
     text-decoration: line-through;
+}
+
+.red:hover {
+    color:grey;
+    background-color: lawngreen;
+    text-decoration:underline;
+}
+
+a.red:visited {
+    color:black;
+    font-style: italic;
+    
 }
