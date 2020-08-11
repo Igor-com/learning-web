@@ -1,0 +1,97 @@
+#kvadrat {
+    height: 150px;
+    width:150px;
+    background: brown;
+    transition: width 3s cubic-bezier(0,1.55,0,-0.7); /*анимация*/
+    -webkit-transition:width 3s cubic-bezier(0,1.55,0,-0.7);
+    transform: scale(2,0.5);
+    -ms-transform: scale(2,0.5);/*масштаб*/
+    -o-transform: scale(2,0.5);
+    -moz-transform: scale(2,0.5);
+    -webkit-transform: scale(2,0.5);
+    margin-left:150px;
+    margin-top:50px;
+    color:white;
+}
+
+#kvadrat:hover {
+    width:400px;
+}
+
+#p {
+    color:palegreen;
+    font-size:2em;
+    text-decoration:underline ;
+    /*transition:color 1.5s ease, font-size 1.5s ease;*/
+    /*-webkit-transition:color 1.5s ease font-size 1.5s ease;*/
+    cursor:pointer;
+    transform:rotate(10deg);
+    -ms-transform: rotate(10deg);/*поворот*/
+    -o-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    margin-top: 250px;
+    animation-name:igor;/*переменная (как id)*/
+    -moz-animation-name: igor;
+    -o-animation-name: igor;
+    -webkit-animation-name: igor;
+    animation-duration: 10s;/*продолжительность анимации*/
+    -moz-animation-duration: 10s;
+    -o-animation-duration:10s;
+    -webkit-animation-duration: 10s;
+    animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;/*количество повторений анимации*/
+    animation-timing-function: ease-in;/*стиль анимации*/
+    -moz-animation-timing-function: ease-in;
+    -o-animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+    animation-delay: 0.5s;/*задержка перед анимацией*/
+    -moz-animation-delay: 0.5s;
+    -o-animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+}
+
+@keyframes igor {
+    0% {color:palegreen;}
+    25% {color:red;}
+    50% {color:blue;}
+    75% {color:yellow;}
+    100% {color:palegreen;}
+
+} 
+
+@-moz-keyframes igor {
+    0% {color:palegreen;}
+    25% {color:red;}
+    50% {color:blue;}
+    75% {color:yellow;}
+    100% {color:palegreen;}
+}
+
+@-o-keyframes igor {
+    0% {color:palegreen;}
+    25% {color:red;}
+    50% {color:blue;}
+    75% {color:yellow;}
+    100% {color:palegreen;}
+} 
+
+@-webkit-keyframes igor {
+    0% {color:palegreen;}
+    25% {color:red;}
+    50% {color:blue;}
+    75% {color:yellow;}
+    100% {color:palegreen;}
+} 
+
+#p:hover {
+   color:black;
+   font-size:2.5em ; 
+}
+
+body {
+    background-color: black;
+}
+
