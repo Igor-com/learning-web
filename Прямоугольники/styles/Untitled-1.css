@@ -17,6 +17,12 @@ body {
     margin-top: -470px;
     margin-left:555px;
     background-color: #008000;
+    transition: background-color 0.5s ease;
+    -webkit-transition: background-color 0.5s ease; 
+}
+
+#big:hover {
+    background-color:#448044;
 }
 
 #red {
@@ -36,6 +42,12 @@ body {
     margin-top:55px;
     margin-left:345px;
     background-color:blue;
+    transition: background-color 0.5s ease;
+    -webkit-transition: background-color 0.5s ease;
+}
+
+#blue:hover {
+    background-color:#8787FF;
 }
 
 #yellow {
@@ -45,8 +57,12 @@ body {
     margin-top:-110px;
     margin-left:555px;
     background-color:yellow;
+    transition: background-color 0.5s ease;
+    -webkit-transition: background-color 0.5s ease;
 }
 
-a:first-child {
-    font-size:500px;
+#yellow:hover {
+    background-color:#FFFF87;
 }
+
+

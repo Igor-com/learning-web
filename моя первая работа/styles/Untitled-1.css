@@ -108,7 +108,7 @@ li {
 }
 
 a:first-child { /*стиль применяется к 1 дочернему элементу*/
-    font-size: 300px;
+    font-size: 100px;
 }
 
 .text::first-line {/*первая линия*/
@@ -129,6 +129,56 @@ small::selection  {
 big::selection  {
     background-color: yellow;
 }
+
+h1 {
+    text-align:center;
+}
+
+.container {
+    width:1000px;
+    margin:0 auto;
+}
+
+@media (max-width:1020px) {
+    .container {
+        width:900px;
+    }
+    #need {
+        display:flex;
+        flex-direction: column;
+        -ms-flex-direction: column;
+        -webkit-flex-direction: column;
+    }
+}
+
+@media (max-width:920px) {
+    .container {
+        width:770px;
+    }
+}
+
+@media (max-width:790px) {
+    .container {
+        width:600px;
+    }
+}
+
+@media (max-width:620px) {
+    .container {
+        width:500px;
+    }
+    #ipsum {
+        border:10px solid blueviolet;
+        height:200px;
+        width:350px;
+        cursor:text;
+        margin-left: 50px;
+        margin-top: 100px;
+        position: static;  
+    }
+}
+
+
 
 
 

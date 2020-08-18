@@ -110,9 +110,72 @@ h2 {
     -moz-box-shadow:30px 30px 30px 30px grey;
     -webkit-box-shadow:30px 30px 30px 30px grey;
     opacity: 0.9;
+    animation-name:vrashenie;
+    -moz-animation-name: vrashenie;
+    -o-animation-name: vrashenie;
+    -webkit-animation-name: vrashenie;
+    animation-duration:20s;
+    -o-animation-duration:20s;
+    -webkit-animation-duration:20s;
+    -moz-animation-duration:20s;
+    animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-timing-function: ease-in;/*стиль анимации*/
+    -moz-animation-timing-function: ease-in;
+    -o-animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
 }
 
-#begin::first-line {
+@keyframes vrashenie{
+    0%{box-shadow:30px 30px 30px 30px;}
+    25% {box-shadow: -30px 30px 30px 30px;
+         -webkit-box-shadow: -30px 30px 30px 30px}
+    50% {box-shadow:-30px -30px 30px 30px;
+        -webkit-box-shadow:-30px -30px 30px 30px;}
+    75% {box-shadow:30px -30px 30px 30px;
+        -webkit-box-shadow:30px -30px 30px 30px;}
+    100% {box-shadow: 30px 30px 30px 30px;
+        -webkit-box-shadow: 30px 30px 30px 30px;}
+}
+
+@-moz-keyframes vrashenie{
+    0%{box-shadow:30px 30px 30px 30px;}
+    25% {box-shadow: -30px 30px 30px 30px;
+         -webkit-box-shadow: -30px 30px 30px 30px}
+    50% {box-shadow:-30px -30px 30px 30px;
+        -webkit-box-shadow:-30px -30px 30px 30px;}
+    75% {box-shadow:30px -30px 30px 30px;
+        -webkit-box-shadow:30px -30px 30px 30px;}
+    100% {box-shadow: 30px 30px 30px 30px;
+        -webkit-box-shadow: 30px 30px 30px 30px;}
+}
+@-o-keyframes vrashenie{
+    0%{box-shadow:30px 30px 30px 30px;}
+    25% {box-shadow: -30px 30px 30px 30px;
+         -webkit-box-shadow: -30px 30px 30px 30px}
+    50% {box-shadow:-30px -30px 30px 30px;
+        -webkit-box-shadow:-30px -30px 30px 30px;}
+    75% {box-shadow:30px -30px 30px 30px;
+        -webkit-box-shadow:30px -30px 30px 30px;}
+    100% {box-shadow: 30px 30px 30px 30px;
+        -webkit-box-shadow: 30px 30px 30px 30px;}
+}
+@-webkit-keyframes vrashenie{
+    0%{box-shadow:30px 30px 30px 30px;}
+    25% {box-shadow: -30px 30px 30px 30px;
+         -webkit-box-shadow: -30px 30px 30px 30px}
+    50% {box-shadow:-30px -30px 30px 30px;
+        -webkit-box-shadow:-30px -30px 30px 30px;}
+    75% {box-shadow:30px -30px 30px 30px;
+        -webkit-box-shadow:30px -30px 30px 30px;}
+    100% {box-shadow: 30px 30px 30px 30px;
+        -webkit-box-shadow: 30px 30px 30px 30px;}
+}
+
+
+    #begin::first-line {
     text-decoration: line-through;
 }
 
@@ -126,8 +189,18 @@ a.red:visited {
     color:black;
 }
 
-footer a:hover {
+.foto:hover {
     opacity:0.5;
     transition: opacity 0.5s  ease-out ;
     -webkit-transition: opacity 0.5s  ease-out ;
+}
+
+.foot {
+    text-decoration:none;
+    border-bottom: 1px solid transparent;
+    transition: all ease-in-out 1s;
+}
+.foot:hover {
+    color: red;
+  border-color: red;
 }
