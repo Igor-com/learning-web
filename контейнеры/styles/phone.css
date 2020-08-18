@@ -1,0 +1,32 @@
+h1 {
+    color:red;
+}
+
+p {
+    font-size:70%;
+}
+
+#one {
+    width:100px;
+    height:100px;
+}
+
+#two {
+    width:100px;
+    height:100px;
+}
+#three {
+    width:100px;
+    height:100px;
+}
+#four {
+    width:100px;
+    height:100px;
+}
+
+#squares {
+    flex-direction:row;
+    -ms-flex-direction:row;
+    -webkit-flex-direction:row;
+    display:flex;
+}

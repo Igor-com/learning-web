@@ -189,7 +189,7 @@ a.red:visited {
     color:black;
 }
 
-.foto:hover {
+.fotocss:hover {
     opacity:0.5;
     transition: opacity 0.5s  ease-out ;
     -webkit-transition: opacity 0.5s  ease-out ;
@@ -204,3 +204,54 @@ a.red:visited {
     color: red;
   border-color: red;
 }
+
+.fotocss {
+    width:150px;
+    display:flex;
+    flex-direction: row;
+}
+
+.li {
+    list-style-type: none;
+    display:inline-block;
+    
+}
+
+ul{
+    display:inline-block; 
+}
+
+.container {
+    margin:0 auto;
+    width:1200px;
+}
+
+@media (max-width:1200px) {
+    .container {
+        width:1100px;
+    }
+}
+
+@media (max-width:1110px) {
+    .container {
+        width:850px;
+    }
+}
+
+@media (max-width:860px) {
+    .container {
+        width:700px;
+        }
+    .li {
+        display:flex;
+        flex-direction:column;
+    }
+    h1 {
+        font-size:200%;
+    }
+    p {
+        font-size:70%;
+    }
+}
+
+
