@@ -2,13 +2,12 @@ img {
     width:150px;
     float:left;
     position:static;
+    filter:brightness(100%);
 }
 
-
-
-/*a {
-    top:1750px;
-    margin-left: -150px;
-    position: relative;
+#kvadrat {
+    height:150px;
+    width:150px;
+    background:linear-gradient(45deg,red,darkblue,orange);
+    
 }
-*/
