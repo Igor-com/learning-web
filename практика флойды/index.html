@@ -8,13 +8,11 @@
 </head>
 <body>
  <container>
-     <div class="first list"></div>
+     <div class="FirstList">
      <header>
          <h1>Pink Floyd - The Dark Side of The Moon</h1>
-         <a href="#muzservisi"></a>
-         <p><a  href="#muzservisi">Прослушать</a></p>
-         <a href="#zakaz"></a>
-         <p><a  href="#zakaz">Купить</a></p>
+         <a id="ListenButton" href="#ploshadki">Прослушать</a>
+         <a id="BuyButton" href="#zakaz">Купить</a>
      </header>
      <div id="text1">
          <p>Pink Floyd</br>
@@ -24,8 +22,9 @@
         <p><a href="spisok kompoziciy">К списку композиций</a></p>
         <a href="#kupit album"></a>
         <p><a href="kupit album">Купить альбом</a></p>
+        </div>
      </div>
-     <div class="second list">
+     <div class="SecondList">
             <div id="recordi">
             <h3>Один из самых лучших альбомов в истории музыки</h3>
             <img src="media/cover-blue.png">
@@ -332,7 +331,7 @@
                 But the sun is eclipsed by the moon.</p>
                 <img src="media/eclipse.png">
      </div>
-     <div class="ploshadki">
+     <div id="ploshadki">
          <a href="https://open.spotify.com/album/4LH4d3cOWNNsVw41Gqt2kv"> <img src="media/spotify.png"></a>
          <a href="https://music.apple.com/us/album/the-dark-side-of-the-moon/1065973699"><img src="media/apple-music.png"></a>
          <a href="https://music.youtube.com/playlist?list=OLAK5uy_mFYZj6isCmnR9l9u6JwEriUvRLxAaDzXw"><img src="media/youtube-music.png"></a>
@@ -340,6 +339,52 @@
          <a href="https://www.deezer.com/ru/album/12114240"><img src="media/deezer.png"></a>
          <a href="https://tidal.com/browse/album/55391786"><img src="media/tidal.png"></a>
      </div>
+     <div class="zakaz" id="zakaz">
+         <h3>Купить альбом</h3>
+         <p>The Dark Side of the Moon. CD</p>
+         <p>Оригинальная версия альбома.</p> 
+         <p>Купить ₽1190</p> 
+         <p>*Доставка не входит в стоимость</p> 
+         <img src="media/cd.png">
+         <img src="media/cd-package.png">
+     </div>
+     <div id="zakaz2">
+        <p>The Dark Side of the Moon. LP</p>
+        <p>Оригинальная версия альбома на 180-граммовой<br/>
+            виниловой пластинке. В комплекте присутствуют<br/>
+            два постера и виниловые наклейки.</p>
+        <p>Купить ₽1990</p> 
+        <p>*Доставка не входит в стоимость</p>     
+     </div>
+     <div id="zakaz3">
+         <p>The Dark Side of the Moon.<br/>
+            Immersion Box Set<p>
+            <p>Четыре CD, включающих оригинальный<br/>
+            альбом, запись живого выступления<br/>
+            на стадионе Уэмбли 1974 года, демо-<br/>
+            версию альбома. Два Blu-ray-диска<br/>
+            для воспроизведения альбома на<br/>
+            квадрофонических системах и<br/>
+            домашних кинотеатрах 5.1.<br/>
+            60-страничный буклет, два постера,<br/>
+            наклейки, репродукция билетов<br/>
+            на живые выступления 1973 года,<br/>
+            а также шарф с символикой альбома.</p>
+            <img src="media/immersion-box-set.png">
+            <p>Купить Immersion                              ₽13500<br/>
+               Box Set прямо сейчас                          ₽10490</p>
+            <p>*доставка не входит в стоимость</p>
+     </div>
+     <footer>
+        <a href="https://www.pinkfloyd.com/news/index.php">Сайт группы</a>
+        <a href="https://www.instagram.com/pinkfloyd/">Instagram группы</a>
+        <a href="https://twitter.com/pinkfloyd">Twitter группы</a>
+        <p>© 2021 Игорь Пушкарёв<br/> 
+            Все права на материал принадлежат<br/>
+           Roger Waters Publishing, Pink Floyd Records,<br/>
+           Capitol Records, EMI Records.<br/>
+           design by nippyfox </p>
+     </footer>
  </container>   
 </body>
 </html>
